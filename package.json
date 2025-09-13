@@ -1,0 +1,20 @@
+{
+  "name": "aiblueprint-agent-starter",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/turndown": "^5.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.16",
+    "@ai-sdk/google": "^2.0.14",
+    "@ai-sdk/openai": "^2.0.15",
+    "ai": "^5.0.15",
+    "glob": "^10.3.10",
+    "turndown": "^7.1.2"
+  }
+}
